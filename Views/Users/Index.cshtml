@@ -1,0 +1,48 @@
+﻿@model BlogApp.Models.ProfileViewModel
+
+@{
+    ViewData["Title"] = "Profil "+@Model.User.FullName;
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/profile.css" />
+}
+
+<div class="profile-container">
+
+    <!-- Wyświetlanie informacji o użytkowniku -->
+    <div class="user-info-container">
+        <h2 class="profile-header">@Model.User.FullName</h2>
+
+        <!-- Wyświetlanie informacji o użytkowniku -->
+        <div class="user-info-card">
+            <p><strong>Posts Count:</strong> @Model.Posts.Count()</p>
+        </div>
+    </div>
+
+    <!-- Kontener z postami użytkownika -->
+    <div class="user-posts-container">
+        <h3 class="posts-header">Posty użytkownika @Model.User.FullName</h3>
+
+        @if (Model.Posts.Any())
+        {
+            <div class="posts-list">
+                @foreach (var post in Model.Posts)
+                {
+                    <div class="post-item">
+                        <a href="@Url.Action("Details", "Posts", new { id = post.Id })" class="post-title">
+                            <h5>@post.Title</h5>
+                        </a>
+                        <p><i>@post.CreatedAt.ToString("dd/MM/yyyy")</i></p>
+                    </div>
+                }
+            </div>
+        }
+        else
+        {
+            <p>No posts found.</p>
+        }
+    </div>
+
+    
+</div>

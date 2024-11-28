@@ -1,0 +1,30 @@
+﻿@model IEnumerable<BlogApp.Models.Post>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/home.css" />
+}
+
+<div class="text-center my-4">
+    <h1 class="display-4">Welcome</h1>
+</div>
+
+<div class="container">
+    <div class="row">
+        @foreach (var post in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">@post.Title</h5>
+                        <p class="card-text">@post.Content.Substring(0, Math.Min(post.Content.Length, 200))...</p> <!-- Skrócony tekst -->
+                        <p class="card-text"><small class="text-muted">By: @post.User.FullName on @post.CreatedAt</small></p>
+                        <a href="@Url.Action("Details", "Posts", new { id = post.Id })" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

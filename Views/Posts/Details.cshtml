@@ -1,0 +1,11 @@
+﻿@model BlogApp.Models.PostDetailsViewModel
+<h2>@Model.Post.Title</h2>
+<p>@Model.Post.Content</p>
+<p><strong>Posted by:</strong> @Model.Post.User.UserName</p>
+
+@if (User.Identity.IsAuthenticated && Model.IsAuthor)
+{
+    <a class="btn btn-secondary" href="@Url.Action("Edit", "Posts", new { id = Model.Post.Id })">Edytuj Post</a>
+}
+
+<a class="btn btn-primary"  href="@Url.Action("Index", "Home")">Back to List</a>

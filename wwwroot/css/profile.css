@@ -1,0 +1,87 @@
+﻿/* Profile container */
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+/* Ustawienie nagłówka profilu */
+.profile-header {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Kontener z danymi użytkownika */
+.user-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-info-card {
+    font-size: 1.1rem;
+    color: #333;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Kontener z postami */
+.user-posts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+/* Nagłówek sekcji postów */
+.posts-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Lista postów */
+.posts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+/* Pojedynczy post */
+.post-item {
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+    .post-item:hover {
+        background-color: #f0f0f0;
+    }
+
+/* Tytuł posta */
+.post-title {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #007bff;
+}
+
+    .post-title:hover {
+        text-decoration: underline;
+    }

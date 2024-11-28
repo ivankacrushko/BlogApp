@@ -1,0 +1,45 @@
+﻿/* Ustawienia dla karty */
+.card {
+    border-radius: 10px; /* Zaokrąglone rogi karty */
+    overflow: hidden; /* Usuwa wystające elementy */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efekt animacji */
+}
+
+    .card:hover {
+        transform: translateY(-5px); /* Lekko unosi kartę przy najechaniu */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Dodanie cienia przy najechaniu */
+    }
+
+    /* Stylowanie przycisku "Read more" */
+    .card .btn {
+        background-color: #007bff;
+        border-color: #007bff;
+        transition: background-color 0.3s ease;
+    }
+
+        .card .btn:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+/* Styl dla tła sekcji */
+.container {
+    margin-top: 30px;
+}
+
+/* Stylizacja tekstu na stronie głównej */
+h1.display-4 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Dodatkowy margines między postami */
+.card-body {
+    padding: 20px;
+}
+
+/* Styl dla daty i autora */
+.card-text small.text-muted {
+    font-style: italic;
+}
