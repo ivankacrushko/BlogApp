@@ -33,7 +33,7 @@ namespace BlogApp.Controllers
 		{
 			if (id == null)
 			{
-				return NotFound();  // Jeśli id jest null, zwróć 404
+				return NotFound();
 			}
 
 			var post = await _context.Posts
@@ -42,7 +42,7 @@ namespace BlogApp.Controllers
 
 			if (post == null)
 			{
-				return NotFound();  // Jeśli nie znaleziono posta, zwróć 404
+				return NotFound();
 			}
 
 			var currentUserId = _userManager.GetUserId(User);
@@ -50,10 +50,10 @@ namespace BlogApp.Controllers
 			var model = new PostDetailsViewModel
 			{
 				Post = post,
-				IsAuthor = post.UserId == currentUserId  // Sprawdzamy, czy użytkownik jest autorem
+				IsAuthor = post.UserId == currentUserId
 			};
 
-			return View(model);  // Zwróć widok z postem
+			return View(model);
 		}
 
 		[HttpGet]
@@ -99,15 +99,11 @@ namespace BlogApp.Controllers
 			{
 				return NotFound();
 			}
-
-			// Sprawdzamy, czy użytkownik jest autorem posta
 			var currentUserId = _userManager.GetUserId(User);
 			if (post.UserId != currentUserId)
 			{
-				return Unauthorized();  // Jeśli nie jesteś autorem, nie masz dostępu
+				return Unauthorized(); 
 			}
-
-			// Mapowanie do EditPostViewModel
 			var model = new EditPostViewModel
 			{
 				Id = post.Id,
@@ -115,11 +111,8 @@ namespace BlogApp.Controllers
 				Content = post.Content,
 				UserId = post.UserId
 			};
-
-			return View(model);  // Przekazujemy model do widoku
+			return View(model);
 		}
-
-
 
 		[HttpPost]
 		[ValidateAntiForgeryToken]
@@ -129,38 +122,29 @@ namespace BlogApp.Controllers
 			{
 				return NotFound();
 			}
-
 			var post = await _context.Posts.FindAsync(id);
-
 			if (post == null)
 			{
 				return NotFound();
 			}
-
-			// Sprawdzamy, czy użytkownik jest autorem posta
 			var currentUserId = _userManager.GetUserId(User);
 			if (post.UserId != currentUserId)
 			{
 				return Unauthorized();
 			}
 
-			
 			try
 			{
-				// Aktualizowanie posta w bazie danych
 				post.Title = model.Title;
 				post.Content = model.Content;
-
 				_context.Update(post);
 				await _context.SaveChangesAsync();
 			}
 			catch (DbUpdateConcurrencyException)
 			{
 				return NotFound();
-					
 			}
-
-			return RedirectToAction("Index", "Home");  // Przekierowujemy do listy postów
+			return RedirectToAction("Index", "Home");
 		}
 
 

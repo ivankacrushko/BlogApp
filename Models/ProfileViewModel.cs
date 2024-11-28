@@ -6,5 +6,6 @@ namespace BlogApp.Models
 	{
 		public ApplicationUser User { get; set; }
 		public List<Post> Posts { get; set; }
+		public string Bio { get; set; }
 	}
 }

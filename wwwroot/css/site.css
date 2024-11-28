@@ -29,3 +29,8 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+.navbar-nav .nav-item {
+    margin-right: 5px; /* Odstêp po prawej stronie ka¿dego przycisku */
+    margin-left: 5px; /* Odstêp po lewej stronie ka¿dego przycisku */
+}

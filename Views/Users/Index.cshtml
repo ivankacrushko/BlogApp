@@ -13,11 +13,26 @@
     <!-- Wyświetlanie informacji o użytkowniku -->
     <div class="user-info-container">
         <h2 class="profile-header">@Model.User.FullName</h2>
+        <p><strong>Dołączył:</strong> @Model.User.RegistrationDate.ToString("dd/MM/yyyy")</p>
 
         <!-- Wyświetlanie informacji o użytkowniku -->
         <div class="user-info-card">
             <p><strong>Posts Count:</strong> @Model.Posts.Count()</p>
         </div>
+        @if (!string.IsNullOrEmpty(Model.User.Bio))
+        {
+        <div class="user-bio-card">
+            <div class="user-info-card">
+            <p><strong>Bio:</strong> @Model.User.Bio</p>
+            @if (User.Identity.IsAuthenticated && User.Identity.Name == Model.User.UserName)
+            {
+                <div class="edit-bio">
+                    <a href="@Url.Action("Edit", "Users")" class="btn btn-secondary">Edit Bio</a>
+                </div>
+            }
+            </div>
+        </div>
+        }
     </div>
 
     <!-- Kontener z postami użytkownika -->

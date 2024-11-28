@@ -6,5 +6,7 @@ namespace BlogApp.Models
 	{
 		public string FullName { get; set; }
 		public ICollection<Post> Posts { get; set; }
+		public string Bio { get; set; }
+		public DateTime RegistrationDate { get; set; }
 	}
 }

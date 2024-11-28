@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LPJEbN/4/FRfIW0/HCdnx4gUiMp6w6CDAoWtWw9V1Ps=",
+  "Hash": "wNWjJr+LLp0pfRzQvHV29FCxo7QNph1Y1DAteUyLr2g=",
   "Source": "BlogApp",
   "BasePath": "_content/BlogApp",
   "Mode": "Default",
@@ -2117,12 +2117,12 @@
       "OriginalItemSpec": "C:\\Users\\blued\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\blued\\source\\repos\\BlogApp\\obj\\Debug\\net9.0\\compressed\\c125jy6fxm-1zqovxyc2b.gz",
+      "Identity": "C:\\Users\\blued\\source\\repos\\BlogApp\\obj\\Debug\\net9.0\\compressed\\c125jy6fxm-g4g6x5ne6i.gz",
       "SourceId": "BlogApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\blued\\source\\repos\\BlogApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/BlogApp",
-      "RelativePath": "css/profile#[.{fingerprint=1zqovxyc2b}]?.css.gz",
+      "RelativePath": "css/profile#[.{fingerprint=g4g6x5ne6i}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -2131,8 +2131,8 @@
       "RelatedAsset": "C:\\Users\\blued\\source\\repos\\BlogApp\\wwwroot\\css\\profile.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "tfkuebowji",
-      "Integrity": "B+NhQ36ELViJeKpssrINA0ckjNHkP/DwZmCGexEy/DU=",
+      "Fingerprint": "0d9mavbjab",
+      "Integrity": "5G5EP3wcNq4hqm9UAZIOH9T+/kBYa1Ql41bBI6/Bpo4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\blued\\source\\repos\\BlogApp\\wwwroot\\css\\profile.css"
@@ -3062,12 +3062,12 @@
       "OriginalItemSpec": "C:\\Users\\blued\\source\\repos\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\blued\\source\\repos\\BlogApp\\obj\\Debug\\net9.0\\compressed\\pn8uwchdow-b9sayid5wm.gz",
+      "Identity": "C:\\Users\\blued\\source\\repos\\BlogApp\\obj\\Debug\\net9.0\\compressed\\pn8uwchdow-tj11nuw7oh.gz",
       "SourceId": "BlogApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\blued\\source\\repos\\BlogApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/BlogApp",
-      "RelativePath": "css/site#[.{fingerprint=b9sayid5wm}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=tj11nuw7oh}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -3076,8 +3076,8 @@
       "RelatedAsset": "C:\\Users\\blued\\source\\repos\\BlogApp\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "wf4wcyqcqt",
-      "Integrity": "fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=",
+      "Fingerprint": "qlldrq5qut",
+      "Integrity": "niHy4ZD83cgk811pUuGbFpI2AnOjEMlK0zZ8svGTFlQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\blued\\source\\repos\\BlogApp\\wwwroot\\css\\site.css"
@@ -4105,8 +4105,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "1zqovxyc2b",
-      "Integrity": "jWHUs2YVrNVnpcJ2iaQxTw4T0DLwO70h+3fiztGqxlM=",
+      "Fingerprint": "g4g6x5ne6i",
+      "Integrity": "4IPYGKBmOMKWv18HQtRXFRVcPLBoKbIzZ3SqzwJ9E+Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\profile.css"
@@ -4126,8 +4126,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b9sayid5wm",
-      "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
+      "Fingerprint": "tj11nuw7oh",
+      "Integrity": "GS3/WB0FH7Ys/NQoe81apmu5bdt4Fnki318q/AhqNJI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -6331,13 +6331,13 @@
       ]
     },
     {
-      "Route": "css/profile.1zqovxyc2b.css",
-      "AssetFile": "C:\\Users\\blued\\source\\repos\\BlogApp\\obj\\Debug\\net9.0\\compressed\\c125jy6fxm-1zqovxyc2b.gz",
+      "Route": "css/profile.css",
+      "AssetFile": "C:\\Users\\blued\\source\\repos\\BlogApp\\obj\\Debug\\net9.0\\compressed\\c125jy6fxm-g4g6x5ne6i.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001703577513"
+          "Quality": "0.001669449082"
         }
       ],
       "ResponseHeaders": [
@@ -6347,19 +6347,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "586"
+          "Value": "598"
         },
         {
           "Name": "ETag",
-          "Value": "\"B+NhQ36ELViJeKpssrINA0ckjNHkP/DwZmCGexEy/DU=\""
+          "Value": "\"5G5EP3wcNq4hqm9UAZIOH9T+/kBYa1Ql41bBI6/Bpo4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 11:26:58 GMT"
+          "Value": "Thu, 28 Nov 2024 12:00:10 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -6375,26 +6375,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"jWHUs2YVrNVnpcJ2iaQxTw4T0DLwO70h+3fiztGqxlM=\""
+          "Value": "W/\"4IPYGKBmOMKWv18HQtRXFRVcPLBoKbIzZ3SqzwJ9E+Y=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "1zqovxyc2b"
-        },
-        {
-          "Name": "label",
-          "Value": "css/profile.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-jWHUs2YVrNVnpcJ2iaQxTw4T0DLwO70h+3fiztGqxlM="
+          "Value": "sha256-4IPYGKBmOMKWv18HQtRXFRVcPLBoKbIzZ3SqzwJ9E+Y="
         }
       ]
     },
     {
-      "Route": "css/profile.1zqovxyc2b.css",
+      "Route": "css/profile.css",
       "AssetFile": "C:\\Users\\blued\\source\\repos\\BlogApp\\wwwroot\\css\\profile.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6404,7 +6396,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1704"
+          "Value": "1939"
         },
         {
           "Name": "Content-Type",
@@ -6412,11 +6404,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jWHUs2YVrNVnpcJ2iaQxTw4T0DLwO70h+3fiztGqxlM=\""
+          "Value": "\"4IPYGKBmOMKWv18HQtRXFRVcPLBoKbIzZ3SqzwJ9E+Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 11:26:58 GMT"
+          "Value": "Thu, 28 Nov 2024 12:00:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4IPYGKBmOMKWv18HQtRXFRVcPLBoKbIzZ3SqzwJ9E+Y="
+        }
+      ]
+    },
+    {
+      "Route": "css/profile.css.gz",
+      "AssetFile": "C:\\Users\\blued\\source\\repos\\BlogApp\\obj\\Debug\\net9.0\\compressed\\c125jy6fxm-g4g6x5ne6i.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "598"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5G5EP3wcNq4hqm9UAZIOH9T+/kBYa1Ql41bBI6/Bpo4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Nov 2024 12:00:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5G5EP3wcNq4hqm9UAZIOH9T+/kBYa1Ql41bBI6/Bpo4="
+        }
+      ]
+    },
+    {
+      "Route": "css/profile.g4g6x5ne6i.css",
+      "AssetFile": "C:\\Users\\blued\\source\\repos\\BlogApp\\obj\\Debug\\net9.0\\compressed\\c125jy6fxm-g4g6x5ne6i.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001669449082"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "598"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5G5EP3wcNq4hqm9UAZIOH9T+/kBYa1Ql41bBI6/Bpo4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Nov 2024 12:00:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"4IPYGKBmOMKWv18HQtRXFRVcPLBoKbIzZ3SqzwJ9E+Y=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g4g6x5ne6i"
+        },
+        {
+          "Name": "label",
+          "Value": "css/profile.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4IPYGKBmOMKWv18HQtRXFRVcPLBoKbIzZ3SqzwJ9E+Y="
+        }
+      ]
+    },
+    {
+      "Route": "css/profile.g4g6x5ne6i.css",
+      "AssetFile": "C:\\Users\\blued\\source\\repos\\BlogApp\\wwwroot\\css\\profile.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1939"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4IPYGKBmOMKWv18HQtRXFRVcPLBoKbIzZ3SqzwJ9E+Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Nov 2024 12:00:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6426,7 +6563,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1zqovxyc2b"
+          "Value": "g4g6x5ne6i"
         },
         {
           "Name": "label",
@@ -6434,13 +6571,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jWHUs2YVrNVnpcJ2iaQxTw4T0DLwO70h+3fiztGqxlM="
+          "Value": "sha256-4IPYGKBmOMKWv18HQtRXFRVcPLBoKbIzZ3SqzwJ9E+Y="
         }
       ]
     },
     {
-      "Route": "css/profile.1zqovxyc2b.css.gz",
-      "AssetFile": "C:\\Users\\blued\\source\\repos\\BlogApp\\obj\\Debug\\net9.0\\compressed\\c125jy6fxm-1zqovxyc2b.gz",
+      "Route": "css/profile.g4g6x5ne6i.css.gz",
+      "AssetFile": "C:\\Users\\blued\\source\\repos\\BlogApp\\obj\\Debug\\net9.0\\compressed\\c125jy6fxm-g4g6x5ne6i.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6449,7 +6586,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "586"
+          "Value": "598"
         },
         {
           "Name": "Content-Type",
@@ -6457,11 +6594,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"B+NhQ36ELViJeKpssrINA0ckjNHkP/DwZmCGexEy/DU=\""
+          "Value": "\"5G5EP3wcNq4hqm9UAZIOH9T+/kBYa1Ql41bBI6/Bpo4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 11:26:58 GMT"
+          "Value": "Thu, 28 Nov 2024 12:00:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6479,7 +6616,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1zqovxyc2b"
+          "Value": "g4g6x5ne6i"
         },
         {
           "Name": "label",
@@ -6487,305 +6624,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-B+NhQ36ELViJeKpssrINA0ckjNHkP/DwZmCGexEy/DU="
-        }
-      ]
-    },
-    {
-      "Route": "css/profile.css",
-      "AssetFile": "C:\\Users\\blued\\source\\repos\\BlogApp\\obj\\Debug\\net9.0\\compressed\\c125jy6fxm-1zqovxyc2b.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001703577513"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "586"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"B+NhQ36ELViJeKpssrINA0ckjNHkP/DwZmCGexEy/DU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 11:26:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"jWHUs2YVrNVnpcJ2iaQxTw4T0DLwO70h+3fiztGqxlM=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-jWHUs2YVrNVnpcJ2iaQxTw4T0DLwO70h+3fiztGqxlM="
-        }
-      ]
-    },
-    {
-      "Route": "css/profile.css",
-      "AssetFile": "C:\\Users\\blued\\source\\repos\\BlogApp\\wwwroot\\css\\profile.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1704"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jWHUs2YVrNVnpcJ2iaQxTw4T0DLwO70h+3fiztGqxlM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 11:26:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-jWHUs2YVrNVnpcJ2iaQxTw4T0DLwO70h+3fiztGqxlM="
-        }
-      ]
-    },
-    {
-      "Route": "css/profile.css.gz",
-      "AssetFile": "C:\\Users\\blued\\source\\repos\\BlogApp\\obj\\Debug\\net9.0\\compressed\\c125jy6fxm-1zqovxyc2b.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "586"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"B+NhQ36ELViJeKpssrINA0ckjNHkP/DwZmCGexEy/DU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 11:26:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-B+NhQ36ELViJeKpssrINA0ckjNHkP/DwZmCGexEy/DU="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "C:\\Users\\blued\\source\\repos\\BlogApp\\obj\\Debug\\net9.0\\compressed\\pn8uwchdow-b9sayid5wm.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.003125000000"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "319"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 11:14:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "b9sayid5wm"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "C:\\Users\\blued\\source\\repos\\BlogApp\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "667"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 11:14:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "b9sayid5wm"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.b9sayid5wm.css.gz",
-      "AssetFile": "C:\\Users\\blued\\source\\repos\\BlogApp\\obj\\Debug\\net9.0\\compressed\\pn8uwchdow-b9sayid5wm.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "319"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 11:14:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "b9sayid5wm"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I="
+          "Value": "sha256-5G5EP3wcNq4hqm9UAZIOH9T+/kBYa1Ql41bBI6/Bpo4="
         }
       ]
     },
@@ -6828,12 +6667,12 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\blued\\source\\repos\\BlogApp\\obj\\Debug\\net9.0\\compressed\\pn8uwchdow-b9sayid5wm.gz",
+      "AssetFile": "C:\\Users\\blued\\source\\repos\\BlogApp\\obj\\Debug\\net9.0\\compressed\\pn8uwchdow-tj11nuw7oh.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003125000000"
+          "Quality": "0.002531645570"
         }
       ],
       "ResponseHeaders": [
@@ -6843,15 +6682,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "394"
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"niHy4ZD83cgk811pUuGbFpI2AnOjEMlK0zZ8svGTFlQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 11:14:17 GMT"
+          "Value": "Thu, 28 Nov 2024 13:23:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6871,13 +6710,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"GS3/WB0FH7Ys/NQoe81apmu5bdt4Fnki318q/AhqNJI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-GS3/WB0FH7Ys/NQoe81apmu5bdt4Fnki318q/AhqNJI="
         }
       ]
     },
@@ -6892,7 +6731,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "841"
         },
         {
           "Name": "Content-Type",
@@ -6900,11 +6739,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"GS3/WB0FH7Ys/NQoe81apmu5bdt4Fnki318q/AhqNJI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 11:14:17 GMT"
+          "Value": "Thu, 28 Nov 2024 13:23:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6914,13 +6753,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-GS3/WB0FH7Ys/NQoe81apmu5bdt4Fnki318q/AhqNJI="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\blued\\source\\repos\\BlogApp\\obj\\Debug\\net9.0\\compressed\\pn8uwchdow-b9sayid5wm.gz",
+      "AssetFile": "C:\\Users\\blued\\source\\repos\\BlogApp\\obj\\Debug\\net9.0\\compressed\\pn8uwchdow-tj11nuw7oh.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6929,7 +6768,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "394"
         },
         {
           "Name": "Content-Type",
@@ -6937,11 +6776,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"niHy4ZD83cgk811pUuGbFpI2AnOjEMlK0zZ8svGTFlQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 11:14:17 GMT"
+          "Value": "Thu, 28 Nov 2024 13:23:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6959,7 +6798,168 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I="
+          "Value": "sha256-niHy4ZD83cgk811pUuGbFpI2AnOjEMlK0zZ8svGTFlQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.tj11nuw7oh.css",
+      "AssetFile": "C:\\Users\\blued\\source\\repos\\BlogApp\\obj\\Debug\\net9.0\\compressed\\pn8uwchdow-tj11nuw7oh.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002531645570"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "394"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"niHy4ZD83cgk811pUuGbFpI2AnOjEMlK0zZ8svGTFlQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Nov 2024 13:23:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"GS3/WB0FH7Ys/NQoe81apmu5bdt4Fnki318q/AhqNJI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tj11nuw7oh"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GS3/WB0FH7Ys/NQoe81apmu5bdt4Fnki318q/AhqNJI="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.tj11nuw7oh.css",
+      "AssetFile": "C:\\Users\\blued\\source\\repos\\BlogApp\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "841"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GS3/WB0FH7Ys/NQoe81apmu5bdt4Fnki318q/AhqNJI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Nov 2024 13:23:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tj11nuw7oh"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GS3/WB0FH7Ys/NQoe81apmu5bdt4Fnki318q/AhqNJI="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.tj11nuw7oh.css.gz",
+      "AssetFile": "C:\\Users\\blued\\source\\repos\\BlogApp\\obj\\Debug\\net9.0\\compressed\\pn8uwchdow-tj11nuw7oh.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "394"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"niHy4ZD83cgk811pUuGbFpI2AnOjEMlK0zZ8svGTFlQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Nov 2024 13:23:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tj11nuw7oh"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-niHy4ZD83cgk811pUuGbFpI2AnOjEMlK0zZ8svGTFlQ="
         }
       ]
     },

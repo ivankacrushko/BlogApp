@@ -123,6 +123,8 @@ namespace BlogApp.Areas.Identity.Pages.Account
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
 				user.FullName = Input.FullName;
+                user.Bio = "";
+                user.RegistrationDate = DateTime.Now;
 				var result = await _userManager.CreateAsync(user, Input.Password);
 
                 if (result.Succeeded)

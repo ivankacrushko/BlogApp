@@ -4,6 +4,7 @@ using BlogApp.Models;
 using BlogApp.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 public class UsersController : Controller
 {
@@ -19,24 +20,60 @@ public class UsersController : Controller
 	[Authorize]
 	public async Task<IActionResult> Index()
 	{
-		// Pobranie aktualnie zalogowanego użytkownika
 		var user = await _userManager.GetUserAsync(User);
 		if (user == null)
 		{
-			return RedirectToAction("Login", "Account");  // Jeśli użytkownik nie jest zalogowany, przekieruj na stronę logowania
+			return RedirectToAction("Login", "Account");
 		}
-
 		var posts = await _context.Posts
-			.Where(p => p.UserId == user.Id)  // Wybieramy posty przypisane do użytkownika
-			.OrderByDescending(p => p.CreatedAt)  // Sortujemy posty po dacie utworzenia
+			.Where(p => p.UserId == user.Id)
+			.OrderByDescending(p => p.CreatedAt)
 			.ToListAsync();
-
 		var profileViewModel = new ProfileViewModel
 		{
 			User = user,
 			Posts = posts
 		};
+		return View(profileViewModel);
+	}
 
-		return View(profileViewModel);  // Przekazanie użytkownika do widoku
+	// GET: Profile/Edit
+	public async Task<IActionResult> Edit()
+	{
+		var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+		var user = _context.Users.Find(userId);
+
+		if (user == null)
+		{
+			return NotFound();
+		}
+		var viewModel = new ProfileViewModel
+		{
+			Bio = user.Bio
+		};
+		return View(viewModel);
+	}
+
+	[HttpPost]
+	[ValidateAntiForgeryToken]
+	public async Task<IActionResult> Edit(ProfileViewModel model)
+	{
+		var user = await _userManager.GetUserAsync(User);
+		if (user == null)
+		{
+			return NotFound();
+		}
+		user.Bio = model.User.Bio;
+
+		var result = await _userManager.UpdateAsync(user);
+		if (result.Succeeded)
+		{
+			return RedirectToAction("Index", "Users");
+		}
+		foreach (var error in result.Errors)
+		{
+			ModelState.AddModelError(string.Empty, error.Description);
+		}
+		return View(model);
 	}
 }
